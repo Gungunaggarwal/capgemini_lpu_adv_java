@@ -1,0 +1,11 @@
+package com.conn;
+
+public class Program {
+	
+	public boolean isPalindrome(String str) {
+		StringBuilder s = new StringBuilder(str);
+		return(s.reverse().toString().equals(str)) ? true:false;
+		}
+	//public static void main(String[] args)
+
+}
